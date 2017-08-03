@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		256E68B31F307F9000179B5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 256E68B21F307F9000179B5F /* main.m */; };
+		256E68B61F307F9000179B5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256E68B51F307F9000179B5F /* AppDelegate.m */; };
+		256E68B91F307F9000179B5F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 256E68B81F307F9000179B5F /* ViewController.m */; };
+		256E68BC1F307F9000179B5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 256E68BA1F307F9000179B5F /* Main.storyboard */; };
+		256E68BE1F307F9000179B5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 256E68BD1F307F9000179B5F /* Assets.xcassets */; };
+		256E68C11F307F9000179B5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 256E68BF1F307F9000179B5F /* LaunchScreen.storyboard */; };
+		256E68D11F30898100179B5F /* YBEventCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 256E68D01F30898100179B5F /* YBEventCalendar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		256E68AE1F307F9000179B5F /* YBCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YBCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		256E68B21F307F9000179B5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		256E68B41F307F9000179B5F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		256E68B51F307F9000179B5F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		256E68B71F307F9000179B5F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		256E68B81F307F9000179B5F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		256E68BB1F307F9000179B5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		256E68BD1F307F9000179B5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		256E68C01F307F9000179B5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		256E68C21F307F9000179B5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		256E68CF1F30898100179B5F /* YBEventCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBEventCalendar.h; sourceTree = "<group>"; };
+		256E68D01F30898100179B5F /* YBEventCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBEventCalendar.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		256E68AB1F307F9000179B5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		256E68A51F307F9000179B5F = {
+			isa = PBXGroup;
+			children = (
+				256E68B01F307F9000179B5F /* YBCalendar */,
+				256E68AF1F307F9000179B5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		256E68AF1F307F9000179B5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				256E68AE1F307F9000179B5F /* YBCalendar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		256E68B01F307F9000179B5F /* YBCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				256E68C81F3086F900179B5F /* YBCalendarManager */,
+				256E68B41F307F9000179B5F /* AppDelegate.h */,
+				256E68B51F307F9000179B5F /* AppDelegate.m */,
+				256E68B71F307F9000179B5F /* ViewController.h */,
+				256E68B81F307F9000179B5F /* ViewController.m */,
+				256E68BA1F307F9000179B5F /* Main.storyboard */,
+				256E68BD1F307F9000179B5F /* Assets.xcassets */,
+				256E68BF1F307F9000179B5F /* LaunchScreen.storyboard */,
+				256E68C21F307F9000179B5F /* Info.plist */,
+				256E68B11F307F9000179B5F /* Supporting Files */,
+			);
+			path = YBCalendar;
+			sourceTree = "<group>";
+		};
+		256E68B11F307F9000179B5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				256E68B21F307F9000179B5F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		256E68C81F3086F900179B5F /* YBCalendarManager */ = {
+			isa = PBXGroup;
+			children = (
+				256E68CF1F30898100179B5F /* YBEventCalendar.h */,
+				256E68D01F30898100179B5F /* YBEventCalendar.m */,
+			);
+			path = YBCalendarManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		256E68AD1F307F9000179B5F /* YBCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 256E68C51F307F9000179B5F /* Build configuration list for PBXNativeTarget "YBCalendar" */;
+			buildPhases = (
+				256E68AA1F307F9000179B5F /* Sources */,
+				256E68AB1F307F9000179B5F /* Frameworks */,
+				256E68AC1F307F9000179B5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YBCalendar;
+			productName = YBCalendar;
+			productReference = 256E68AE1F307F9000179B5F /* YBCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		256E68A61F307F9000179B5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = YBKit;
+				TargetAttributes = {
+					256E68AD1F307F9000179B5F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = GHK4Z7Y58A;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 256E68A91F307F9000179B5F /* Build configuration list for PBXProject "YBCalendar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 256E68A51F307F9000179B5F;
+			productRefGroup = 256E68AF1F307F9000179B5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				256E68AD1F307F9000179B5F /* YBCalendar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		256E68AC1F307F9000179B5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				256E68C11F307F9000179B5F /* LaunchScreen.storyboard in Resources */,
+				256E68BE1F307F9000179B5F /* Assets.xcassets in Resources */,
+				256E68BC1F307F9000179B5F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		256E68AA1F307F9000179B5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				256E68B91F307F9000179B5F /* ViewController.m in Sources */,
+				256E68B61F307F9000179B5F /* AppDelegate.m in Sources */,
+				256E68B31F307F9000179B5F /* main.m in Sources */,
+				256E68D11F30898100179B5F /* YBEventCalendar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		256E68BA1F307F9000179B5F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				256E68BB1F307F9000179B5F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		256E68BF1F307F9000179B5F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				256E68C01F307F9000179B5F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		256E68C31F307F9000179B5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		256E68C41F307F9000179B5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		256E68C61F307F9000179B5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GHK4Z7Y58A;
+				INFOPLIST_FILE = YBCalendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gyb.practice.YBCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		256E68C71F307F9000179B5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GHK4Z7Y58A;
+				INFOPLIST_FILE = YBCalendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gyb.practice.YBCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		256E68A91F307F9000179B5F /* Build configuration list for PBXProject "YBCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				256E68C31F307F9000179B5F /* Debug */,
+				256E68C41F307F9000179B5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		256E68C51F307F9000179B5F /* Build configuration list for PBXNativeTarget "YBCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				256E68C61F307F9000179B5F /* Debug */,
+				256E68C71F307F9000179B5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 256E68A61F307F9000179B5F /* Project object */;
+}
