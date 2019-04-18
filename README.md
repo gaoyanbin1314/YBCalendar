@@ -26,7 +26,7 @@
 // 添加
 + (void)addEventCalendarTitle:(NSString *)title location:(NSString *)location startDate:(NSDate *)startDate endDate:(NSDate *)endDate allDay:(BOOL)allDay alarmArray:(NSArray *)alarmArray completion:(completion)completion;
 
-// 修改标题
+// 修改    
 + (void)modifyCalendarWithTitle:(NSString *)modifytitle forTheCalendarWithStartdate:(NSDate *)startDate;
 
 
